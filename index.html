@@ -25,9 +25,9 @@
     <link rel="manifest" href="/manifest.webmanifest">
 
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" href="minesweeper.min.css?v=1613321175" />
+	<link rel="stylesheet" href="minesweeper.min.css?v=16133211751" />
 	<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="minesweeper.min.js?v=1613321175"></script>
+	<script src="minesweeper.min.js?v=16133211751"></script>
 
 	<script>
 	// if (window.top != window.self) {
@@ -386,11 +386,12 @@
 	<div id="center-column">
 		<div id="game-container" class="z100">
 			<div style="white-space: nowrap;">
-				<span id="options-link" title="game options">Game</span>
-				| <span id="display-link" title="size/position">Display</span>
-				| <span id="controls-link" title="keyboard/mouse controls">Controls</span> 
-				| <span id="import-link" title="load exported game">Import</span> 
-				| <span id="export-link" title="same game to be impoorted">Export</span>
+				<button class="" id="options-link" title="game options">Game</button>
+				<button class="" id="display-link" title="size/position">Display</button>
+				<button class="" id="controls-link" title="keyboard/mouse controls">Controls</button >
+				<button class="" id="import-link" title="load exported game">Import</button>
+				<button class="" id="export-link" title="same game to be impoorted">Export</button>
+                <p></p>
 			</div>
 			<div id="game" oncontextmenu="return false;" ondrag="return false;" ondragstart="return false;"></div>
 
@@ -568,5 +569,7 @@
 
 	</div></table>
 
+    <style>
+    </style>
 </body>
 </html>
